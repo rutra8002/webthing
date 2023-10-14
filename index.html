@@ -3,19 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Dark Theme Template</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Dark Theme Template</h1>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <h1>Dark Theme Template</h1>
+        </div>
     </header>
     
-    <main>
-        <p>This is a simple dark-themed HTML template.</p>
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <p>This is a simple dark-themed HTML template.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h5>Featured</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">This is a featured item.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     
-    <footer>
-        <p>&copy; 2021 My Website</p>
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <p>&copy; 2021 My Website</p>
+        </div>
     </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
